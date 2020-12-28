@@ -16,8 +16,70 @@
 <body>
 <div class="reveal">
     <div class="slides">
-        <section>Slide 1</section>
-        <section>Slide 2</section>
+        <section data-markdown>## Trollo</section>
+        <section>
+            <section data-markdown>## Trello</section>
+            <section>Organizační nástroj pro týmy</section>
+            <section>Zdarma</section>
+            <section>Spousta integrací s jinými aplikacemi</section>
+        </section>
+        <section>
+            <section data-markdown>## Technologie</section>
+            <section style="color: #1b91ff">PostgreSQL</section>
+            <section style="color: #17ff2e">Node.js</section>
+            <section style="color: #268bd2">TypeScript</section>
+            <section style="color: deeppink">GraphQL</section>
+            <section>Next.js</section>
+            <section style="color: #2a76dd">React</section>
+        </section>
+        <section>
+            <section>TypeScript</section>
+            <section>Od Microsoftu</section>
+            <section>Striktně typovaný</section>
+            <section>Úroveň kontroly typů je konfigurovatelná</section>
+        </section>
+        <section>
+            <section>REST</section>
+            <section>Způsob komunikace BE a FE</section>
+            <section>Je definován tzv. endpointy</section>
+            <section>Jeden endpoint je vlastně URL adresa</section>
+            <section>Operace se rozlišují pomocí HTTP metod</section>
+        </section>
+        <section>
+            <section>GraphQL</section>
+            <section>Má nahradit REST</section>
+            <section>Vše je na jednom endpointu</section>
+            <section>Queries</section>
+            <section>Mutations</section>
+            <section>Subscriptions</section>
+        </section>
+        <section>
+            <section>/user/board/:id</section>
+            <section>Nevíme, co nám z BE přijde</section>
+        </section>
+        <section>
+            <section>
+                <pre>
+                    <code data-trim data-noescape>
+                    board(id: $boardId) {
+                        id
+                        name
+                        lists {
+                            id
+                            name
+                            index
+                            cards {
+                                id
+                                name
+                                description
+                            }
+                        }
+                    }
+                    </code>
+                </pre>
+            </section>
+            <section>Dostaneme z BE přesně to, o co si řekneme</section>
+        </section>
     </div>
 </div>
 
