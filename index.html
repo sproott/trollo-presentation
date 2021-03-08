@@ -1,102 +1,61 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
 
     <title>reveal.js</title>
 
-    <link rel="stylesheet" href="dist/reset.css">
-    <link rel="stylesheet" href="dist/reveal.css">
-    <link rel="stylesheet" href="dist/theme/black.css" id="theme">
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/black.css" id="theme" />
 
     <!-- Theme used for syntax highlighted code -->
-    <link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
-</head>
-<body>
-<div class="reveal">
-    <div class="slides">
-        <section data-markdown>## Trollo</section>
-        <section>
-            <section data-markdown>## Trello</section>
-            <section>Organizační nástroj pro týmy</section>
-            <section>Zdarma</section>
-            <section>Spousta integrací s jinými aplikacemi</section>
-        </section>
-        <section>
-            <section data-markdown>## Technologie</section>
-            <section style="color: #1b91ff">PostgreSQL</section>
-            <section style="color: #17ff2e">Node.js</section>
-            <section style="color: #268bd2">TypeScript</section>
-            <section style="color: deeppink">GraphQL</section>
-            <section>Next.js</section>
-            <section style="color: #2a76dd">React</section>
-        </section>
-        <section>
-            <section>TypeScript</section>
-            <section>Od Microsoftu</section>
-            <section>Striktně typovaný</section>
-            <section>Úroveň kontroly typů je konfigurovatelná</section>
-        </section>
-        <section>
-            <section>REST</section>
-            <section>Způsob komunikace BE a FE</section>
-            <section>Je definován tzv. endpointy</section>
-            <section>Jeden endpoint je vlastně URL adresa</section>
-            <section>Operace se rozlišují pomocí HTTP metod</section>
-        </section>
-        <section>
-            <section>GraphQL</section>
-            <section>Má nahradit REST</section>
-            <section>Vše je na jednom endpointu</section>
-            <section>Queries</section>
-            <section>Mutations</section>
-            <section>Subscriptions</section>
-        </section>
-        <section>
-            <section>/user/board/:id</section>
-            <section>Nevíme, co nám z BE přijde</section>
-        </section>
-        <section>
-            <section>
-                <pre>
-                    <code data-trim data-noescape>
-                    board(id: $boardId) {
-                        id
-                        name
-                        lists {
-                            id
-                            name
-                            index
-                            cards {
-                                id
-                                name
-                                description
-                            }
-                        }
-                    }
-                    </code>
-                </pre>
-            </section>
-            <section>Dostaneme z BE přesně to, o co si řekneme</section>
-        </section>
+    <link
+      rel="stylesheet"
+      href="plugin/highlight/monokai.css"
+      id="highlight-theme"
+    />
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section
+          data-markdown="slides.md"
+          data-separator="^---"
+          data-separator-vertical="^[|]{3}"
+        ></section>
+      </div>
     </div>
-</div>
 
-<script src="dist/reveal.js"></script>
-<script src="plugin/notes/notes.js"></script>
-<script src="plugin/markdown/markdown.js"></script>
-<script src="plugin/highlight/highlight.js"></script>
-<script>
-    // More info about initialization & config:
-    // - https://revealjs.com/initialization/
-    // - https://revealjs.com/config/
-    Reveal.initialize({
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
         hash: true,
 
         // Learn about plugins: https://revealjs.com/plugins/
-        plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
-    });
-</script>
-</body>
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+      });
+    </script>
+  </body>
+
+  <style>
+    .reveal h1,
+    .reveal h2,
+    .reveal h3,
+    .reveal h4,
+    .reveal h5,
+    .reveal h6 {
+      text-transform: none;
+    }
+  </style>
 </html>
