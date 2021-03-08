@@ -72,25 +72,21 @@ Nevíme, co nám z BE přijde
 
 ---
 
-<section>
-  <pre>
-    <code data-trim data-noescape class="graphql">
-    board(id: $boardId) {
-        id
-        name
-        lists {
-            id
-            name
-            index
-            cards {
-                id
-                name
-                description
-            }
-        }
+<pre><code data-trim data-noescape class="graphql">
+board(id: $boardId) {
+  id
+  name
+  lists {
+    id
+    name
+    index
+    cards {
+      id
+      name
+      description
     }
-    </code>
-</pre>
-</section>
+  }
+}
+</code></pre>
 |||
 Dostaneme z BE přesně to, o co si řekneme
