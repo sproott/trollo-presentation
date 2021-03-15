@@ -16,23 +16,26 @@ Spousta integrací s jinými aplikacemi
 
 ## Technologie
 |||
-<img class="logo" src="assets/logos/postgresql.svg">
-<h3 style="color: #336791">PostgreSQL</h3>
+<img class="logo" src="assets/logos/typescript.svg">
+<h3 style="color: #007ACC">TypeScript</h3>
 |||
 <img class="logo" src="assets/logos/nodejs.svg">
 <h3 style="color: #539E43">Node.js</h3>
 |||
-<img class="logo" src="assets/logos/typescript.svg">
-<h3 style="color: #007ACC">TypeScript</h3>
-|||
-<img class="logo" src="assets/logos/graphql.svg">
-<h3 style="color: #E535AB">GraphQL</h3>
+<img class="logo" src="assets/logos/react.svg">
+<h3 style="color: #61DAFB">React</h3>
 |||
 <img class="logo" src="assets/logos/nextjs.svg">
 <h3 style="color: #000000">Next.js</h3>
 |||
-<img class="logo" src="assets/logos/react.svg">
-<h3 style="color: #61DAFB">React</h3>
+<img class="logo" src="assets/logos/graphql.svg">
+<h3 style="color: #E535AB">GraphQL</h3>
+|||
+<img class="logo" src="assets/logos/apollo.svg">
+<h3 style="color: #000000">Apollo</h3>
+|||
+<img class="logo" src="assets/logos/postgresql.svg">
+<h3 style="color: #336791">PostgreSQL</h3>
 
 ---
 
