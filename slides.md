@@ -36,13 +36,35 @@ Spousta integrací s jinými aplikacemi
 
 ---
 
-## TypeScript
+<img class="logo" src="assets/logos/typescript.svg">
+<h2 style="color: #007ACC">TypeScript</h3>
 |||
-Od Microsoftu
+<img src="assets/logos/microsoft.svg" width="250px;">
 |||
 Striktně typovaný
 |||
 Úroveň kontroly typů je konfigurovatelná pomocí souboru tsconfig
+
+---
+
+<img class="logo" src="assets/logos/react.svg">
+<h2 style="color: #61DAFB">React</h3>
+|||
+JSX
+|||
+Komponenty
+|||
+<pre><code data-trim>
+const Logo = () => <h1>Trollo</h1>
+</code></pre>
+|||
+Props
+|||
+<pre><code data-trim data-line-numbers="1|3"><script type="text/template">
+const Logo = ({text}: {text: string}) => <h1>{text}</h1>
+
+<Logo text="Trollo" />
+</script></code></pre>
 
 ---
 
@@ -103,4 +125,10 @@ Dostaneme z BE přesně to, o co si řekneme
 
 ---
 
-### Tato prezentace byla napsána jazykem Markdown pomocí JS frameworku reveal.js
+### Prezentace:
+- Markdown
+- reveal.js
+
+---
+
+<h2 style="font-family: Pacifico; color: #1890FF;">Děkuji za pozornost</h2>
