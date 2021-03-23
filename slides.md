@@ -11,6 +11,7 @@ Organizační nástroj pro týmy
 Zdarma
 |||
 Spousta integrací s jinými aplikacemi
+Note: Například Slack a MS Teams
 
 ---
 
@@ -21,21 +22,25 @@ Spousta integrací s jinými aplikacemi
 |||
 <img class="logo" src="assets/logos/nodejs.svg">
 <h3 style="color: #539E43">Node.js</h3>
+Note: Umožňuje spouštět aplikační servery napsané v JavaScriptu. JavaScript normálně běží pouze v prohlížeči. Sice je pomalejší než jiné systémy, ale umožňuje používat stejný jazyk na frontendu a na backendu, což je pro programátory pohodlnější.
 |||
 <img class="logo" src="assets/logos/react.svg">
 <h3 style="color: #61DAFB">React</h3>
 |||
 <img class="logo" src="assets/logos/nextjs.svg">
 <h3 style="color: #000000">Next.js</h3>
+Note: Frontend framework, založený na Reactu. Je předkonfigurovaný pro server-side rendering.
 |||
 <img class="logo" src="assets/logos/graphql.svg">
 <h3 style="color: #E535AB">GraphQL</h3>
 |||
 <img class="logo" src="assets/logos/apollo.svg">
 <h3 style="color: #000000">Apollo</h3>
+Note: GraphQL knihovna pro backend (server) a frontend (client). Server umožňuje sestavit GraphQL schéma a zpřístupnit ho na GraphQL endpointu. Client umí volat z frontendu dotazy a operace na backendu. Má normalizovanou cache, což znamená, že data automaticky strukturuje a organizuje v globální cache paměti.
 |||
 <img class="logo" src="assets/logos/postgresql.svg">
 <h3 style="color: #336791">PostgreSQL</h3>
+Note: Jeden z nejpoužívanějších SQL databázových systémů. Oproti třeba MySQL má mnoho funkcí navíc, podpora pro více typů, např. boolean, byte array (soubory) a dokonce JSON dokumenty. 
 
 ---
 
@@ -122,9 +127,25 @@ board(id: $boardId) {
 |||
 Dostaneme z BE přesně to, o co si řekneme
 
+---
 
+<img src="assets/screenshots/container1.png">
+|||
+<img src="assets/screenshots/container2.png">
+|||
+<img src="assets/screenshots/container3.png">
 
+---
 
+<img src="assets/screenshots/modal.png">
+
+---
+
+<img src="assets/screenshots/cards.png">
+|||
+<img src="assets/screenshots/cards_drag.png">
+|||
+<img src="assets/screenshots/list_drag.png">
 
 ---
 
