@@ -129,6 +129,17 @@ Dostaneme z BE přesně to, o co si řekneme
 
 ---
 
+# Styly
+
+---
+
+## Ant Design
+<img src="assets/screenshots/modal.png">
+
+---
+
+## CSS
+|||
 <img src="assets/screenshots/container1.png">
 |||
 <img src="assets/screenshots/container2.png">
@@ -137,10 +148,7 @@ Dostaneme z BE přesně to, o co si řekneme
 
 ---
 
-<img src="assets/screenshots/modal.png">
-
----
-
+## React Beautiful DnD
 <img src="assets/screenshots/cards.png">
 |||
 <img src="assets/screenshots/cards_drag.png">
