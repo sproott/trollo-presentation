@@ -163,4 +163,4 @@ Dostaneme z BE přesně to, o co si řekneme
 
 ---
 
-<h2 style="font-family: Pacifico; color: #1890FF;">Děkuji za pozornost</h2>
+## Děkuji za pozornost
