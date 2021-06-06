@@ -1,5 +1,9 @@
 <h1 style="font-family: Pacifico; color: #1890FF;">Trollo</h1>
 
+#### David Hrabě, 4. F 
+
+#### 2021
+
 ---
 
 ## Nápad
